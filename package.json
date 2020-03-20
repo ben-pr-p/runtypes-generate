@@ -16,18 +16,18 @@
   "author": "Andrey Melnikov",
   "license": "MIT",
   "dependencies": {
-    "jsverify": "^0.8.2",
-    "runtypes": "^0.11.0",
-    "lodash": "^4.17.4",
-    "@types/lodash": "^4.14.66"
+    "@types/lodash": "^4.14.149",
+    "jsverify": "^0.8.4",
+    "lodash": "^4.17.15",
+    "runtypes": "^4.2.0"
   },
   "devDependencies": {
-    "@types/jest": "^18.1.1",
-    "jest": "^19.0.2",
-    "ts-jest": "^19.0.0",
-    "typescript": "2.2.1",
-    "xyz": "^2.1.0",
-    "ts-node": "2.1.0"
+    "@types/jest": "^25.1.4",
+    "jest": "^25.1.0",
+    "ts-jest": "^25.2.1",
+    "ts-node": "^8.7.0",
+    "typescript": "^3.8.3",
+    "xyz": "^2.1.0"
   },
   "keywords:": [
     "runtime",
