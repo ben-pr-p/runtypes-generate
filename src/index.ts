@@ -90,6 +90,7 @@ const REGISTRY = {
       if (CUSTOM_REGISTRY[args.tag]) {
         return CUSTOM_REGISTRY[args.tag]({ constraint, underlying, args });
       } else {
+        console.log("args", args);
         throw new Error(
           `Please add generator for ${args.tag} with addTypeToRegistry`
         );
@@ -137,6 +138,7 @@ const REGISTRY = {
   string: () => jsc.string,
   tuple: ({ components }) =>
     jsc.tuple(components.map(component => makeJsverifyArbitrary(component))),
+  unknown: () => jsc.json,
   union: ({ alternatives }) =>
     jsc.oneof(
       alternatives.map(alternative => makeJsverifyArbitrary(alternative))

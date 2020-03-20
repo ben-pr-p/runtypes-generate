@@ -1,6 +1,6 @@
 {
-  "name": "runtypes-generate",
-  "version": "0.4.1",
+  "name": "runtypes-generate-benprp",
+  "version": "0.5.0",
   "description": "Integrate runtypes with property-based testing",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -13,7 +13,7 @@
     "release:minor": "xyz --increment minor",
     "release:major": "xyz --increment major"
   },
-  "author": "Andrey Melnikov",
+  "author": "Andrey Melnikov & Ben Packer",
   "license": "MIT",
   "dependencies": {
     "@types/lodash": "^4.14.149",
@@ -41,7 +41,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/typeetfunc/runtypes-generate"
+    "url": "https://github.com/ben-pr-p/runtypes-generate"
   },
   "jest": {
     "verbose": false,
